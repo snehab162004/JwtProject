@@ -1,6 +1,8 @@
 GET http://localhost:3000/posts
-
+Authorization: Bearer
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUml0dSIsImlhdCI6MTY1ODQyMjc1MH0.FYCoz7_6-igGeAvEG35veZ7MeWa3RFdT-te0x7sGt24
 ###
+
 POST http://localhost:3000/login
 Content-Type: application/json
 
